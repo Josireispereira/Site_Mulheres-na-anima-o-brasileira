@@ -1,0 +1,35 @@
+//colors
+$black: #000;
+$white: #fff;
+$lightGray: rgb(228, 228, 228);
+$gray: #474646;
+$blue: #5da09c;
+$box-shadow: 0px 6px 10px -2px rgba(0, 0, 0, 0.09);
+
+// cores quentes
+$coral: #ff6e60;
+$vermelho: #E81E18;
+$laranja: #FB991C;
+$roxinho: #C5A5BA;
+$roxo-marrom: #4F222B;
+$laranja-marrom: #C8451E;
+$roxo-opaco: #897889;
+$laranja-opaco: #F1AB5D;
+
+$color-primary: $gray;
+$color-secondary: $white;
+$color-icon: $blue;
+$color-bg-secondary: $lightGray;
+$color-title: $black;
+
+//fonts
+$font-size-title: 2rem;
+$font-size-text: 1.1rem;
+$font-family-title: "Poppins", sans-serif;
+$font-family-text: "Open Sans", sans-serif;
+$bold: bold;
+
+
+//breakpoints
+$mobile: 480px;
+$tablet: 768px;

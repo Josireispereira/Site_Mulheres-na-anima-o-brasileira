@@ -6,37 +6,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mulheres na Animação Brasileira</title>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Open+Sans|Raleway:400,600" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
+    <!-- barra de nav -->
+    <nav class="nav">
+        <a href="index.html" class="brand">
+            <img class="nav__logo" src="/assets/imgs/logo/MABRA.png" alt="logo mulheres na animação brasileira"></a>
 
-    <nav class="navegacao">
-        <img src="" alt="">
+        <ul class="menu">
+            <li class="menu__item"><a class="hover-underline-animation" href="#">Home</a></li>
+            <li class="menu__item"><a class="hover-underline-animation" href="#news">Notícias</a></li>
+            <li class="menu__item"><a class="hover-underline-animation" href="">Entrevistas</a></li>
+            <li class="menu__item"><a class="hover-underline-animation" href="">Filmes</a></li>
+            <li class="menu__item"><a class="hover-underline-animation" href="">Pesquisas</a></li>
+            <li class="menu__item"><a class="hover-underline-animation" href="">Sobre</a></li>
+        </ul>
 
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul class="area-usuario">
+            <button class="area-usuario__item">Login</button>
         </ul>
     </nav>
 
-    <header class="cabecalho">
-        <h1>Mulheres na Animação Brasileira</h1>
-        <h2></h2>
+    <!-- cabeçalho -->
+    <header class="header">
+        <h1 class="">Mulheres na Animação Brasileira</h1>
+        <h2 class="">Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis.</h2>
     </header>
 
-    <section class="container">
+    <!-- container de conteudo-->
+    <main class="container">
 
-    </section>
+        <!-- noticias -->
+        <div id="news" class="noticias card-deck">
+            <div class="card">
+                <div class="card-body bg cardum">
+                    <h4 class="card-title ">
+                        Participação de mulheres na produção de animações cresce no Brasil</h4>
+                    <p class="card-text">A participação de mulheres nas diversas etapas da produção de animação cresceu
+                        nos últimos anos. A professora do Estúdio Escola de Animação, Cindy Shaw, diretora de animação
+                        do Copa Studio, diz os homens ainda são maioria, mas que atualmente há bem mais mulheres atuando
+                        do que quando começou a trabalhar na área há 8 anos.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body bg">
+                    <h4 class="card-title">Sucesso na TV e 'made in Brazil', Luna é o fenômeno infantil da vez</h4>
+                    <p class="card-text">Criada pelos brasileiros Célia Catunda e Kiko Mistrorigo (os mesmos autores de
+                        "Peixonauta"), a série de animação "O Show da Luna!" é um sucesso na TV e aposta no mercado de
+                        licenciamentos.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body bg">
+                    <h4 class="card-title">Brasil Tricampeão: Guida Sai do Festival de Annecy 2015 com duas Premiações!
+                    </h4>
+                    <p class="card-text">O curta metragem "Guida" da super animadora Rosana Urbes venceu o prêmio da
+                        crítica do Festival de Animação de Annecy, acabamos de receber a informação de mais um prêmio
+                        para o curta que sai do festival: melhor Primeiro Filme.</p>
+                </div>
+            </div>
+        </div>
 
-    <footer class="rodape">
-        <small>Criado por Josi Reis</small>
+        <!-- entrevistas -->
+        <section class="entrevistas" id="interviews">
+            <h3>Rosaria Moreira</h3>
+            <a href="https://www.youtube.com/watch?v=eP8wa1ZL5SI"></a>
+
+            <h3>Nara Normande</h3>
+            <a href="https://www.youtube.com/watch?v=dEXQOWoliko">Nara Normande | 29º Curta Kinoforum</a>
+
+            <h3>Aída Queiróz</h3>
+            <a href="https://www.youtube.com/watch?time_continue=5&v=AqftNKETZik">Aída Queiróz – Encontros de Cinema
+                (2017)</a>
+        </section>
+
+        <!-- filmes -->
+        <section class="filmes" id="films">
+            <h2>Curtas-metragens</h2>
+            <div>
+                <h3>Guida por Rosana Urbes</h3>
+                <a href="https://vimeo.com/132668364"></a>
+            </div>
+
+            <div>
+                <h3>O Projeto do Meu Pai por Rosária Moreira</h3>
+                <a href="https://www.youtube.com/watch?v=Y8g4mQjGKAs"></a>
+            </div>
+
+            <div>
+                <h3>Sonder por Nicóle Janér</h3>
+                <a href="https://vimeo.com/285960861"></a>
+            </div>
+        </section>
+
+        <!-- pesquisas -->
+        <section class="pesquisas" id="researches">
+            <div>
+                <h2> Cinema de Animação Nacional: Identidade, Mercado Cinematográfico
+                    e Prática Artística. Universidade Federal de Goiás. Goiânia, p. 249. 2013.
+                </h2>
+                <h1>OLIVEIRA, I. V. </h1>
+            </div>
+
+            <div>
+                <h2> A expansão do mercado de animação brasileira: condições de
+                    possibilidade que favoreceram o crescimento da produção de longas-metragens animados no Brasil no
+                    século XXI. Instituto de Ciências Sociais. Brasília, p. 83. 2017.</h2>
+                <h1>MENDONÇA, F. D. C. F.</h1>
+            </div>
+
+            <div>
+                <h2>Eu sou animação no Brasil. Universidade do Estado de Minas Gerais. [S.l.], p.
+                    62. 2015.</h2>
+                <h1>FARIAH, C. </h1>
+            </div>
+        </section>
+    </main>
+
+    <!-- rodapé -->
+    <footer class="footer">
+        <div>
+            <span>Contato: projetoanimadoras@gmail.com</span>
+        </div>
+        <small class="footer__credits">Copyright © 2019 - Criado por <a href="https://josiheys.tumblr.com/">Josi
+                Reis</a></small>
     </footer>
+
 </body>
 
-<script src="./assets/script.js"></script>
+<!-- js -->
+<script src="assets/js/script.js"></script>
 
 </html>

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font: {
+    size: 1rem;
+    family: "Open Sans", sans-serif;
+    }
+}
+
+ul li {
+    display: inline-block;
+}
+
+.bg{
+    background-color: aquamarine;
+}
+// a {text-decoration: none;
+// }
+
+// li {
+//     list-style: none;
+//     display: inline-block;
+// }
+
+// h2 {
+//     @include title(30px, unset, $color-secondary);
+// }
+
+// h4 {
+//     @include title(20px, uppercase, $color-title);
+// }
+
+// h5 {
+//     @include title(14px, unset, $color-primary);
+//     font-weight: bold;
+// }
+
+// section {
+//     padding: 30px 0;
+// }
+
+// .container {
+//     margin: 0 auto;
+//     width: 70%;
+
+//     @media screen and (max-width: $mobile) {
+//         width: 90%;
+//     }
+// }
+
+/*
+
+.navegacao {
+    display: none;
+}
+
+.cabecalho {
+    background: url(./mujeres-latinas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;   
+}
+
+@media (max-width: 420px) {
+
+    }
+
+@media (max-width: 768px) {
+
+    }
+
+@media (max-width: 1024px) {
+
+    } 
+*/

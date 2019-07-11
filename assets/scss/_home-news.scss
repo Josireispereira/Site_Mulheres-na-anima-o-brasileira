@@ -1,0 +1,23 @@
+// .description {
+//     color: $color-primary;
+//     overflow: hidden;
+
+//     .container {
+//         @include flex(center, center);
+
+//         .description-text {
+//             @extend %flexDiv;
+
+//             p {margin-bottom: 20px;}
+//         }
+
+//         .description-img {
+//             @extend %flexDiv;
+
+//             img {
+//                 width: 800px;
+//                 margin-left: 80px;
+//             }
+//         }
+//     }
+// }
