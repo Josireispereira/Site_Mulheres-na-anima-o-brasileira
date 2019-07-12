@@ -3,6 +3,7 @@ html {
 }
 
 /* botoes */
+
 .btn-padrao {
     background-color: rgb(223, 49, 92);
     transition: all 0.2s ease-in-out;
@@ -14,6 +15,7 @@ html {
 }
 
 /* navegacao */
+
 .bar {
     background-color: rgba(255, 255, 255, 0.589);
     animation: fadeIn 1s timing-function delay iteration-count direction fill-mode;
@@ -24,8 +26,12 @@ html {
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .nav__logo {
@@ -58,6 +64,7 @@ html {
 }
 
 /* cabecalho */
+
 .header {
     height: 100vh;
     background-image: url(/assets/imgs/bg-opaco.png);
@@ -68,11 +75,14 @@ html {
 }
 
 /* noticias */
+
 .noticias {
     height: 60%;
     margin-bottom: 120px;
 }
+
 /* entrevistas */
+
 .entrevistas {
     height: 60%;
     padding-bottom: 120px;
@@ -80,19 +90,23 @@ html {
 }
 
 /* pesquisas */
+
 .pesquisas {
+    padding-bottom: 120px;
     /* background-color: #ff906b; */
 }
 
 /* cards */
+
 .card-content {
     top: 320px;
     left: 200px;
 }
 
 /* fontes */
+
 h3 {
- padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .font-title {
@@ -116,6 +130,7 @@ h3 {
 }
 
 /* links */
+
 a {
     color: rgb(255, 255, 255);
 }
@@ -135,6 +150,7 @@ a:hover {
 }
 
 /* backgrounds */
+
 .bg-card {
     /* background-color: rgba(253, 198, 45, 0.281); */
     background-color: #fae18f65;
@@ -148,5 +164,5 @@ a:hover {
 .bg-footer {
     background-color: #ff906b;
     /* background-color: #fa7268; */
-    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
 }
