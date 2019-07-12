@@ -2,37 +2,80 @@ html {
     scroll-behavior: smooth;
 }
 
+/* botoes */
+.btn-padrao {
+    background-color: rgb(223, 49, 92);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-padrao:hover {
+    box-shadow: 1px 1px gray, 2px 2px gray, 3px 3px gray;
+    transform: translateX(-3px);
+}
+
+/* navegacao */
 .bar {
     background-color: rgba(255, 255, 255, 0.589);
     animation: fadeIn 1s timing-function delay iteration-count direction fill-mode;
 }
 
+.fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 .nav__logo {
     width: 17vw;
-    padding: 15px;
+    padding: 10px;
 }
 
-.btn-orange {
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
     background-color: rgb(252, 168, 59);
+    transform-origin: bottom right;
+    transition: transform 0.30s ease-out;
 }
 
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* cabecalho */
 .header {
     height: 100vh;
-    background-image: url(/assets/imgs/mulheres-latinas.jpg.png);
+    background-image: url(/assets/imgs/bg-opaco.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
     background-attachment: fixed;
-
 }
 
+/* cards */
 .card-content {
     top: 320px;
     left: 200px;
 }
 
+/* fontes */
 .font-title {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -40,9 +83,40 @@ html {
     font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
 }
+
+.font-any {
+    font-family: 'Poppins', sans-serif;
+}
+
 .font-text {
     font-size: 1.3rem;
     font-family: 'Poppins', sans-serif;
+    color: #212529;
+}
+
+/* links */
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.link-footer {
+    color: #b8293c;
+}
+
+.link-footer:hover {
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+}
+
+/* backgrounds */
+.bg-card {
+    /* background-color: rgba(253, 198, 45, 0.281); */
+    background-color: #fae18f65;
 }
 
 .bg-transparent {
@@ -51,5 +125,7 @@ html {
 }
 
 .bg-footer {
-    background-color: #fa7268;
+    background-color: #ff906b;
+    /* background-color: #fa7268; */
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
 }
