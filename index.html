@@ -11,14 +11,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <!-- barra de nav -->
     <nav class=" fadeIn bar navbar navbar-expand-lg fixed-top shadow justify-content-around">
         <a href="index.html" class="brand">
-            <img class="nav__logo" src="/assets/imgs/logo/MABRA.png" alt="logo mulheres na animação brasileira"></a>
+            <img class="nav__logo" src="./assets/imgs/logo/MABRA.png" alt="logo mulheres na animação brasileira"></a>
 
         <ul class="nav">
             <li class="nav-item">
@@ -48,7 +48,7 @@
     </nav>
     <!-- cabeçalho -->
     <header id="start" class="header align-content-end bg-light">
-        <div class="border-0 fadeIn card card-content col-3 bg-card">
+        <div class="border-0 fadeIn card card-content col-3 bg-card p-1">
             <h1 class="border-0 card-header bg-transparent font-title">Mulheres na Animação Brasileira</h1>
             <h2 class="card-body bg-transparent font-text">O projeto nasceu em 2018, impulsionado por um pequeno grupo
                 de mulheres profissionais ligadas à animação, determinada a quebrar o "teto de vidro" em uma indústria
@@ -115,29 +115,29 @@
         </div>
 
         <!-- entrevistas -->
-        <div id="interviews" class="entrevistas card-deck col-12">
+        <div id="interviews" class="entrevistas card-deck mx-auto col-12">
             <div class="text-center col-12">
                 <h2 class="m-3 p-3 pt-5 font-title">Entrevistas</h2>
             </div>
             <div class="row col-12 text-center">
-                <div class="card-body p-0 bg">
-                    <h3>Rosaria Moreira</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eP8wa1ZL5SI" frameborder="0"
+                <div class="col-md-4 card-body p-0 bg">
+                    <h3 class="font-subtitle">Rosaria Moreira</h3>
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/eP8wa1ZL5SI" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>Menina da Chuva - Animania</iframe>
                 </div>
 
-                <div class="card-body p-0 bg">
-                    <h3>Nara Normande</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dEXQOWoliko" frameborder="0"
+                <div class="col-md-4 card-body p-0 bg">
+                    <h3 class="font-subtitle">Nara Normande</h3>
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/dEXQOWoliko" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>Nara
                         Normande | 29º Curta Kinoforum</iframe>
                 </div>
 
-                <div class="card-body p-0 bg">
-                    <h3>Aída Queiróz</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AqftNKETZik" frameborder="0"
+                <div class="col-md-4 card-body p-0 bg">
+                    <h3 class="font-subtitle">Aída Queiróz</h3>
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/AqftNKETZik" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>Aída
                         Queiróz – Encontros de Cinema (2017)</iframe>
@@ -150,29 +150,37 @@
             <div class="row">
                 <div class="text-center col-8 mx-auto">
                     <h2 class="m-3 p-3 pt-5 pb-2 font-title">Pesquisas Acadêmicas</h2>
-                    <p class="font-text pb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum dignissimos eum velit est impedit in fugit nesciunt, veritatis at. Assumenda doloribus ex aut soluta, eveniet commodi porro modi, non omnis veritatis delectus quis facere molestias beatae eius esse nobis, enim  saepe temporibus similique odit? Ex similique fuga quod reprehenderit odio!Assumenda doloribus ex aut soluta, eveniet commodi porro modi, non omnis veritatis delectus quis facere molestias beatae eius esse nobis, enim saepe temporibus similique odit? Ex similique fuga quod reprehenderit odio!</p>
+                    <p class="font-text pb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+                        dignissimos eum velit est impedit in fugit nesciunt, veritatis at. Assumenda doloribus ex aut
+                        soluta, eveniet commodi porro modi, non omnis veritatis delectus quis facere molestias beatae
+                        eius esse nobis, enim saepe temporibus similique odit? Ex similique fuga quod reprehenderit
+                        odio!Assumenda doloribus ex aut soluta, eveniet commodi porro modi, non omnis veritatis delectus
+                        quis facere molestias beatae eius esse nobis, enim saepe temporibus similique odit? Ex similique
+                        fuga quod reprehenderit odio!</p>
                 </div>
             </div>
 
-
+            <div>
             <div class="row">
-                
-                <div class="col-md-4 mx-auto col-12">
+
+                <div class="col-md-5 mx-auto col-12" style="max-height: 400px;">
                     <div class="card">
-                        <img class="card-img-top" src="" alt="Card image cap">
-                        <div class="card-body">
+                        <img class="card-icon mx-auto mt-3" src="./assets/imgs/icons8-ios-50.png" alt="Card image cap">
+                        <div class="card-body card-width">
                             <h5 class="card-title font-subtitle">OLIVEIRA, I. V. </h5>
-                            <p class="card-text font-text">Cinema de Animação Nacional: Identidade, Mercado Cinematográfico
+                            <p class="card-text font-text">Cinema de Animação Nacional: Identidade, Mercado
+                                Cinematográfico
                                 e Prática Artística. Universidade Federal de Goiás. Goiânia, p. 249. 2013.</p>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-md-4 mx-auto col-12">
+                <div class="col-md-5 mx-auto col-12" style="max-height: 400px;">
                     <div class="card">
-                        <img class="card-img-top" src="https://placehold.co/150x80" alt="Card image cap">
-                        <div class="card-body">
+                        <img class="card-icon mx-auto mt-2" src="./assets/imgs/icons8-rolo-de-filme-64.png"
+                            alt="Card image cap">
+                        <div class="card-body card-width">
                             <h5 class="card-title font-subtitle">MENDONÇA, F. D. C. F.</h5>
                             <p class="card-text font-text">A expansão do mercado de animação brasileira: condições de
                                 possibilidade que favoreceram o crescimento da produção de longas-metragens animados no
@@ -184,12 +192,14 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 mx-auto col-12">
+                <div class="col-md-5 mx-auto col-12" style="margin-top: 8px; max-height: 400px;">
                     <div class="card">
-                        <img class="card-img-top" src="https://placehold.co/150x80" alt="Card image cap">
-                        <div class="card-body">
+                        <img class="card-icon mx-auto mt-3" src="./assets/imgs/icons8-paleta-de-pintura-50.png"
+                            alt="Card image cap">
+                        <div class="card-body card-width">
                             <h5 class="card-title font-subtitle">FARIAH, C. </h5>
-                            <p class="card-text font-text">Eu sou animação no Brasil. Universidade do Estado de Minas Gerais.
+                            <p class="card-text font-text">Eu sou animação no Brasil. Universidade do Estado de Minas
+                                Gerais.
                                 [S.l.], p.
                                 62. 2015.</p>
                         </div>
@@ -197,13 +207,13 @@
                 </div>
 
 
-                <div class="col-md-4 mx-auto col-12">
+                <div class="col-md-5 mx-auto col-12" style="max-height: 400px;">
                     <div class="card">
-                        <img class="card-img-top" src="https://placehold.co/150x80" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title font-subtitle">Lorem ipsun</h5>
-                            <p class="card-text font-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
-                                dignissimos.</p>
+                        <img class="card-icon mx-auto mt-3" src="./assets/imgs/icons8-edição-de-vídeo-50.png"
+                            alt="Card image cap">
+                        <div class="card-body card-width">
+                            <h5 class="card-title font-subtitle">MACHADO, M. C</h5>
+                            <p class="card-text font-text">Gestão de pessoas em estúdios de animação: entendendo as pequenas empresas da indústria criativa brasileira.</p>
                         </div>
                     </div>
                 </div>
@@ -211,19 +221,19 @@
         </div>
 
         <!-- filmes -->
-        <section id="films" class="filmes">
+        <section id="films" class="filmes pb-5">
             <div class="container-fluid">
                 <div class="text-center col-12">
                     <h2 class="m-3 p-3 pt-5 font-title">Filmes</h2>
                 </div>
 
-                <div class="row">
+                <div class="row pb-4">
                     <div class="col-md-6 col-12 text-center">
                         <iframe width="640" height="360" src="https://www.youtube.com/embed/c5xB5b3dQK8" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe> </div>
-                    <div class="col-md-4 text-left col-12">
-                        <h4 class="font-subtitle">Guida por Rosana Urbes</h4>
+                    <div class="col-md-5 text-left col-12">
+                        <h3 class="font-subtitle">Guida por Rosana Urbes</h3>
                         <p class="font-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
                             dignissimos eum velit est
                             impedit in fugit nesciunt, veritatis at. Assumenda doloribus ex aut soluta, eveniet commodi
@@ -232,15 +242,15 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row pb-4">
                     <div class="col-md-6 col-12 text-center">
                         <iframe class="embed-responsive-item" width="640" height="360"
                             src="https://www.youtube.com/embed/Y8g4mQjGKAs" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
-                    <div class="col-md-4 text-left col-12">
-                        <h4 class="font-subtitle">O Projeto do Meu Pai por Rosária Moreira</h4>
+                    <div class="col-md-5 text-left col-12">
+                        <h3 class="font-subtitle">O Projeto do Meu Pai por Rosária Moreira</h3>
                         <p class="font-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
                             doloribus ex aut soluta, eveniet commodi
                             porro modi, non omnis veritatis delectus quis facere molestias beatae eius esse nobis, enim
@@ -248,13 +258,13 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row pb-4">
                     <div class="col-md-6 col-12 text-center">
                         <iframe src="https://player.vimeo.com/video/285960861" width="640" height="360" frameborder="0"
                             allow="autoplay; fullscreen" allowfullscreen></iframe>
                     </div>
-                    <div class="col-md-4 text-left col-12">
-                        <h4 class="font-subtitle">Sonder por Nicóle Janér</h4>
+                    <div class="col-md-5 text-left col-12">
+                        <h3 class="font-subtitle">Sonder por Nicóle Janér</h3>
                         <p class="font-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
                             dignissimos eum velit est
                             impedit in fugit nesciunt, veritatis at. Assumenda doloribus ex aut soluta, eveniet commodi
@@ -266,10 +276,10 @@
         </section>
 
         <!-- Sobre o site -->
-        <div id="about" class="sobre-site col-12">
-            <div class="row">
-                <div class="col-12 mx-auto col-md-2">
-                    <h2 class="pt-5 font-subtitle">Sobre o site Mulheres na Animação Brasileira</h2>
+        <div id="about" class="container mx-auto">
+            <div class="row py-5">
+                <div class="col-12 m-0 col-md-7 ">
+                    <h3 class="pt-5 font-subtitle">Sobre o site Mulheres na Animação Brasileira</h3>
                     <p class="font-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquam
                         delectus recusandae
                         rem. Id,
@@ -278,34 +288,30 @@
                         veritatis repellendus voluptatum omnis veniam? Ipsam obcaecati reprehenderit nesciunt tempora
                         alias.
                     </p>
-                    <h3>Comunidade no <a class="link-footer" target="_blank" rel=”noopener”
+                    <h3 class="font-text ">Comunidade no <a class="link-footer font-text" target="_blank" rel=”noopener”
                             href="https://www.facebook.com/groups/174662496449310/">facebook</a></h3>
                     <!-- Sobre o Fórum -->
                     <!-- <h2>Carta feita e assinada no Anima Fórum</h2> -->
                 </div>
 
-                <div class="col-12 col-md-8">
-                    <img class="img-fluid w-75" src="/assets/imgs/37726655_10155360022106695_1344325017051070464_n.jpg"
+                <div class="col-12 col-md-5">
+                    <img class="img-fluid img-mulheres" src="./assets/imgs/37726655_10155360022106695_1344325017051070464_n.jpg"
                         alt="reunião das mulheres no anima mundi">
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <img src="/assets/imgs/48727508.jpg" alt="Josi Reis" />
+            <div class="row pb-5">
+                <div class="col-12 col-md-5">
+                    <img class="img-dev" src="./assets/imgs/48727508.jpg" alt="Josi Reis" />
                 </div>
 
-                <div class="col-12 col-md-6">
-                    <h2 class="font-subtitle">Sobre a Autora</h2>
+                <div class="col-12 m-0 col-md-7">
+                    <h3 class="font-subtitle">Sobre a Autora</h3>
                     <p class="font-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe quo alias
-                        fugiat repellendus
-                        consequatur
-                        obcaecati, blanditiis illo odio, aliquam in accusamus consectetur repellat officiis ab est.
-                        Facilis,
-                        modi? Reiciendis porro nam perferendis quae, tempora vel id beatae facere aliquam cumque quam
-                        maxime
-                        distinctio cupiditate dolor officiis quaerat ratione, voluptates ad.
-                        <p>
+                        fugiat repellendus consequatur obcaecati, blanditiis illo odio, aliquam in accusamus consectetur
+                        repellat officiis ab est. Facilis, modi? Reiciendis porro nam perferendis quae, tempora vel id
+                        beatae facere aliquam cumque quam maxime distinctio cupiditate dolor officiis quaerat ratione
+                        voluptates ad. <p>
                 </div>
             </div>
         </div>
@@ -313,11 +319,11 @@
         </div>
 
         <!-- rodapé -->
-        <footer class="footer bg-footer py-5 text-center mt-5 ">
+        <footer class="footer bg-footer py-4 text-center">
             <div>
                 <span class="font-text">Contato: projetoanimadoras@gmail.com</span>
             </div>
-            <small class="font-text footer__credits">Copyright © 2019 - Criado por <a class="link-footer"
+            <small class="font-text pt-2 footer__credits">Copyright © 2019 - Criado por <a class="link-footer"
                     target="_blank" rel=”noopener” href="https://github.com/Josireispereira">Josi
                     Reis</a></small>
         </footer>
@@ -334,6 +340,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-<script src="assets/js/script.js"></script>
+<script src="./assets/js/script.js"></script>
 
 </html>

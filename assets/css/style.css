@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-inline: hidden;
 }
 
 /* botoes */
@@ -67,7 +68,7 @@ html {
 
 .header {
     height: 100vh;
-    background-image: url(/assets/imgs/bg-opaco.png);
+    background-image: url(../imgs/bg-opaco.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
@@ -96,11 +97,24 @@ html {
     /* background-color: #ff906b; */
 }
 
+/* filmes */
+.filmes {
+    background-color: rgba(255, 96, 56, 0.37);
+}
+
 /* cards */
 
 .card-content {
-    top: 320px;
-    left: 200px;
+    top: 220px;
+    left: 150px;
+}
+
+.card-width {
+    min-height: 200px;
+}
+
+.card-icon {
+    width: 50px;
 }
 
 /* fontes */
@@ -110,12 +124,12 @@ h3 {
 }
 
 .font-title {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .font-subtitle {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -124,7 +138,7 @@ h3 {
 }
 
 .font-text {
-    font-size: 1.3rem;
+    font-size: 0.95rem;
     font-family: 'Poppins', sans-serif;
     color: #212529;
 }
@@ -147,6 +161,14 @@ a:hover {
 .link-footer:hover {
     text-decoration: none;
     color: rgb(24, 23, 23);
+}
+
+.img-mulheres {
+    width: 900px;
+}
+
+.img-dev {
+    width: 280px;
 }
 
 /* backgrounds */
